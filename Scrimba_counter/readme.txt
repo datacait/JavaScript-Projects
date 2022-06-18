@@ -1,0 +1,1 @@
+This is a simple counter built as a toy example that measures the number of times my dog leaps into the air as part of his nightly dinner dances. This simple tool uses HTML, CSS, & Javascript and is modeled after the Scrimba People Counter in the first Javascript unit. 
