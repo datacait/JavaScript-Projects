@@ -1,0 +1,1 @@
+This is a scoreboard built with HTML, CSS, & Javascript as a part of the Scrimba intro to Javascript course. This was intended to closely match the design provided via Figma here: https://www.figma.com/file/YC48MCx4frBFtYoz6rNJE6/Basketball-Scoreboard
