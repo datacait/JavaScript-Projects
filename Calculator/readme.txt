@@ -1,0 +1,1 @@
+This is a static calculator that has the original numbers coded into the javascript file. The functions add(), subtract(), divide(), and multiply() all operate on those original numbers and display a result. This is modeled after the calculator practice example in the first unit of the Scrimba Javascript course. 
