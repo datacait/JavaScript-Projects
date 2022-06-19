@@ -1,0 +1,1 @@
+This project was completed as part of the Scrimba intro to Javascript course. It includes HTML, CSS, & Javascript & is designed to imitate the Figma design file provided (https://www.figma.com/file/NEj9JDycMjF3XKXq7swoc9/Random-Password-Generator-(New-version)?node-id=0%3A1). The tool generates a random 15-character password. 

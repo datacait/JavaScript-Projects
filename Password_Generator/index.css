@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    background: #1C1C1C;
+}
+
+main {
+    background: #1F2937;
+}
+
+h1 {
+    color: #FFFFFF;
+}
+
+#greentext {
+    color: #4ADF86
+}
+
+p {
+    color: #D5D4D8;
+}
+
+.float-container {
+    display: flex;
+    margin-top: 35px;
+    border-top: 1px solid #2f3E53;
+    height: 189px;
+    width: 466px;
+}
+.rectangle { 
+    width: 211px;
+    height: 39px;
+    background: #273549;
+    border-radius: 6px;
+    margin: auto;
+}
+
+.one {
+    margin-left: 0 important!;
+}
