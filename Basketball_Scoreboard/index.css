@@ -62,6 +62,8 @@ button {
 }
 
 .new-game { 
+    display: flex;
     width: 125px;
+    margin-top: 120%;
     
 }
