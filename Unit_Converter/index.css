@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    background: #111827;
+    font-family: 'Inter', sans-serif;
+}
+
+.top {
+    width: 50%;
+    height: 35vh;
+    max-width: 550px;
+    background: #6943ff;
+    color: white; 
+    margin: auto;
+}
+
+h1 {
+    font-weight: 800;
+    size: 28px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    padding: 32px 50px;
+
+}
+
+.bottom {
+    width: 50%;
+    height: 55vh;
+    max-width: 550px;
+    background: #1F2937;
+    margin: auto;
+    border-top: 20px solid #1F2937;   
+}
+
+.output { 
+    background: #273549;
+    margin: 25px;
+    height: 25%;
+}
