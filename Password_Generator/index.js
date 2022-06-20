@@ -7,7 +7,7 @@ let passwordLength = 12
 
 function generatePassword() {
     function getRandomCharacter() {
-        let randomChar = Math.floor(Math.random() * characters.length) + 1
+        let randomChar = Math.floor(Math.random() * characters.length)
         return characters[randomChar]
     }
 
