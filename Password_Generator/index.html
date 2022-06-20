@@ -2,18 +2,22 @@
 <html>
     <head>
         <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
+
+
     </head>
     <body>
         <main>
-            <h1>Generate a <span id=greentext>random password</span></h1>
-            <p>Never use an insecure password again</p>
-            <button>Genrate passwords</button>
+            <h1>Generate a <span class="greentext" id="newline">random password</span></h1>
+            <p class="sub">Never use an insecure password again</p>
+            <button onclick="generatePassword()">Generate passwords</button>
             <div class="float-container">
-                <div class="rectangle">
-                    <p  class="one" id="random1"> &nbsp </p>
+                <div class="rectangle one">
+                    <p  class="pw1 greentext" id="random1"> &nbsp </p>
                 </div>
-                <div class="rectangle">
-                    <p  class="two" id="random2"> &nbsp </p>
+                <div class="rectangle two">
+                    <p  class="pw2 greentext" id="random2"> &nbsp </p>
                 </div>
             </div>
         <script src="index.js"></script>

@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     background: #1C1C1C;
@@ -5,35 +6,87 @@ body {
 
 main {
     background: #1F2937;
+    width: 550px;
+    height: 550px;
+    margin: auto;
 }
 
 h1 {
+    font-family: 'Karla', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    letter-spacing: -0.025em;
+    line-height: 40px;
     color: #FFFFFF;
+    padding-top: 100px;
+    padding-left: 52px;
+
 }
 
-#greentext {
-    color: #4ADF86
+.greentext{
+    color: #4ADF86;
 }
 
-p {
+#newline::before{
+    content: "\a";
+    white-space: pre;
+}
+
+.sub {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400; 
+    font-size: 20px;
+    line-height: 28px;
     color: #D5D4D8;
+    margin-top: -20px;
+    margin-left: 52px;
 }
+
+.pw1, .pw2 {
+    border: 1px solid blue;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    margin: auto;
+}
+
 
 .float-container {
     display: flex;
-    margin-top: 35px;
     border-top: 1px solid #2f3E53;
-    height: 189px;
-    width: 466px;
+    height: 175px;
+    width: 446px;
+    margin: 35px auto;
 }
+
 .rectangle { 
     width: 211px;
     height: 39px;
     background: #273549;
     border-radius: 6px;
-    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 35px;
 }
 
 .one {
-    margin-left: 0 important!;
+    margin-right: 24px;
+}
+
+button { 
+    margin-left: 52px;
+    margin-top: 45px;
+    background: #10B981;
+    color: white;
+    padding: 9px 15px;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    font-family: 'Inter', sans-serif;
+    line-height: 24px;
+    cursor: pointer;
 }
