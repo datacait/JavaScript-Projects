@@ -5,8 +5,8 @@ body {
 }
 
 .top {
-    width: 50%;
-    height: 35vh;
+    width: 60%;
+    height: 40vh;
     max-width: 550px;
     background: #6943ff;
     color: white; 
@@ -19,21 +19,74 @@ h1 {
     line-height: 38px;
     text-align: center;
     letter-spacing: -0.03em;
-    padding: 32px 50px;
-
+    padding: 32px 50px 0px 32px;
 }
 
 .bottom {
-    width: 50%;
-    height: 55vh;
+    width: 60%;
+    height: 50vh;
     max-width: 550px;
     background: #1F2937;
     margin: auto;
-    border-top: 20px solid #1F2937;   
+    border-top: 10px solid #1F2937;   
 }
 
 .output { 
     background: #273549;
-    margin: 25px;
+    margin: 20px 25px;
     height: 25%;
+}
+
+.desc { 
+    color: #CCC1FF;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px; 
+    text-align: center;
+    padding-top: 25px;
+}
+
+.conversion {
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.num {
+    display: flex;
+    flex-direction: column; 
+    margin: auto;
+    height: 70px;
+    width: 100px;
+    background: #6943ff;
+    color: white;
+    border: 2px solid #b295ff;
+    font-size: 50px; 
+    font-weight: 800;
+    line-height: 24px;
+    text-align: center;
+}
+
+.num:active, .num:focus {
+    outline: none;
+}
+
+button { 
+    display: flex; 
+    flex-direction: column;
+    margin: 20px auto;
+    background: white;
+    border-radius: 5px;
+    height: 35px; 
+    width: 104px;
+    border: none;
+    font-weight: 500; 
+    font-size: 16px; 
+    line-height: 24px;
+    color: #3d3d3d;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
 }
